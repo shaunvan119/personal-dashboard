@@ -9,5 +9,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
 }
+
+
 
