@@ -40,14 +40,10 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
 
 
 
-const date = new Date()
-const time = date.toLocaleTimeString("en-us", {timeStyle: "short"})
-document.getElementById("time").textContent = `${time}`
+function getCurrentTime() {
+    const date = new Date()
+    document.getElementById("time").textContent = date.toLocaleTimeString("en-us", {timeStyle: "short"})
+}
 
+setInterval(getCurrentTime, 1000)
 
-
-// display date
-
-
-// display time
-console.log(time);
