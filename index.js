@@ -37,3 +37,17 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
         `
     })
     .catch(err => console.error(err))
+
+
+
+const date = new Date()
+const time = date.toLocaleTimeString("en-us", {timeStyle: "short"})
+document.getElementById("time").textContent = `${time}`
+
+
+
+// display date
+
+
+// display time
+console.log(time);
