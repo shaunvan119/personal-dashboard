@@ -31,3 +31,15 @@ h1.time {
     text-align: center;
 }
 
+.image-crypto-name {
+    display: flex;
+}
+
+div#crypto-top {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
