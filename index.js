@@ -47,3 +47,9 @@ function getCurrentTime() {
 
 setInterval(getCurrentTime, 1000)
 
+
+// weather
+navigator.geolocation.getCurrentPosition(position => {
+    console.log(position)
+});
+
