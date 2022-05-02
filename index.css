@@ -31,6 +31,10 @@ h1.time {
     text-align: center;
 }
 
+div#crypto {
+    font-size: 1.3rem;
+}
+
 .image-crypto-name {
     display: flex;
 }
@@ -38,6 +42,20 @@ h1.time {
 div#crypto-top {
     display: flex;
     align-items: center;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
+}
+
+div#crypto > p {
+    margin: 0;
+}
+
+div#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 
